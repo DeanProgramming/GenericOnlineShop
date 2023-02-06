@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Store Page</title>
+        <meta name = "store" content="This is the Store Page">
+        <link rel = "stylesheet" href="styles.css"/>
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class = "nav main-nav">
+                <ul>
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="store.html"> STORE</a></li>
+                    <li><a href="about.html"> ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="shop-name shop-name-large"> Generic Online Shop</h1>
+        </header>
+
+        <section class = "container content-section">
+            <h2 class="section-header">Hats</h2>
+            <div class = "shop-items">
+                <div class ="shop-item">
+                    <span class ="shop-item-title">Cosmic Hat</span>
+                    <img class ="shop-item-image" src = "Images/GalaxyHat.jpg">
+                    <div class ="shop-item-details">
+                        <span class ="shop-item-price">£8.99</span>
+                        <button class="btn btn-primary shop-item-button" role = "button">ADD TO CART</button>
+                    </div>
+                </div> 
+                
+                <div class ="shop-item">
+                    <span class ="shop-item-title">Beach Hat</span>
+                    <img class ="shop-item-image" src = "Images/SunHat.jpg">
+                    <div class ="shop-item-details">
+                        <span class ="shop-item-price">£4.29</span>
+                        <button class="btn btn-primary shop-item-button" role = "button">ADD TO CART</button>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section class = "container content-section">
+            <h2 class="section-header">Dresses</h2>
+
+            <div class = "shop-items">
+                <div class ="shop-item">
+                    <span class ="shop-item-title">White Dress</span>
+                    <img class ="shop-item-image" src = "Images/WhiteDress.jpg">
+                    <div class ="shop-item-details">
+                        <span class ="shop-item-price">£12.99</span>
+                        <button class="btn btn-primary shop-item-button" role = "button">ADD TO CART</button>
+                    </div>
+                </div>  
+
+                <div class ="shop-item">
+                    <span class ="shop-item-title">Red Dress</span>
+                    <img class ="shop-item-image" src = "Images/RedDress.jpg">
+                    <div class ="shop-item-details">
+                        <span class ="shop-item-price">£2.99</span>
+                        <button class="btn btn-primary shop-item-button" role = "button">ADD TO CART</button>
+                    </div>
+                </div>   
+            </div>
+        </section>
+
+        <section class ="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class ="cart-row">
+                <span class="cart-item cart-header cart-column" >ITEM</span> 
+                <span  class="cart-price cart-header cart-column">PRICE</span> 
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+
+            <div class ="cart-items">                
+            </div>
+
+            <div class = "cart-total">
+                <strong class = "cart-total-title">Total</strong>
+                <span class = "cart-total-price">£0.00</span>
+            </div> 
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button> 
+        </section>
+
+        <footer class="main-footer">
+            <h3 class="advertisement">Huge 20% off everything</h3>
+        </footer>
+    </body>
+</html>
